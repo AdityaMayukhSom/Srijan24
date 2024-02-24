@@ -2,7 +2,6 @@
 import './merchendise.css'
 import Image from 'next/image'
 import { useState, useEffect, useMemo } from 'react'
-import Form from './Form'
 import Link from 'next/link'
 export default function Merchendise() {
     const tshirts = useMemo(function () {
@@ -32,7 +31,7 @@ export default function Merchendise() {
     }, [num])
 
     return (
-        <div id='merchendise-main'>
+        <div className='min-h-screen bg-gradient-to-r from-[#25015E] to-[#050027]'>
             <div id='Image-Button-Container'>
                 <div id='ImageHolder'>
                     {tshirts.map((src, idx) => (
