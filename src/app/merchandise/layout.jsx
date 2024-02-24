@@ -2,8 +2,7 @@
 
 export default function MerchandiseLayout({ children }) {
     return (
-        <main className='min-h-screen bg-gradient-to-r from-[#25015E] to-[#050027]'>
-            {/* <Navbar /> */}
+        <main className='min-h-screen '>
             <section>{children}</section>
         </main>
     )
